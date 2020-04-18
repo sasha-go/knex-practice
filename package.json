@@ -1,12 +1,12 @@
 {
-  "name": "express-boilerplate",
+  "name": "knex-practice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
-    "dev": "nodemon src/server.js",
-    "start": "node src/practice.js",
+    "dev": "nodemon src/blogful.js",
+    "start": "node src/blogful.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
   },
